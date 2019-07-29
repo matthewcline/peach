@@ -7,7 +7,6 @@ const COLORS = {
 };
 
 export default class ConductDayBox extends React.Component {
-
   render() {
     const conduct = this.props.conduct;
     const color = COLORS[conduct.status];

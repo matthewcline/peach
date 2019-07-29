@@ -16,7 +16,7 @@ export default class SearchBar extends React.Component {
         <input 
           type="text" 
           placeholder="Search..." 
-          value={this.props.filteredText}
+          value={this.props.filterText}
           onChange={this.handleFilterTextChange}
         />
         <p>

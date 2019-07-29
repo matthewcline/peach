@@ -11,15 +11,15 @@ export default class FilterableConductCalendar extends React.Component {
     }
   }
 
-  handleFilterTextChange = (text) => {
+  handleFilterTextChange = (filterText) => {
     this.setState({
-      filterText: text
+      filterText: filterText
     })
   }
 
-  handleOnlyUnsatisfactoryDaysChange = (checked) => {
+  handleOnlyUnsatisfactoryDaysChange = (onlyUnsatisfactoryDays) => {
     this.setState({
-      onlyUnsatisfactoryDays: checked
+      onlyUnsatisfactoryDays: onlyUnsatisfactoryDays
     })
   }
 
